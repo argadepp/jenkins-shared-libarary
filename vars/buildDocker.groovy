@@ -1,5 +1,5 @@
 def dockerLogin(String user,String repo , String pass){
-    sh "echo '${pass} | docker login ghcr.io -u ${user} --password-stdin"
+    sh "echo '${pass} | docker login ghcr.io -u ${user} --password-stdin'"
 }
 
 
